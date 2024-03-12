@@ -1,0 +1,47 @@
+body {
+    font-family: "Smythe", system-ui;
+    background-image: url("../victorian.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+   }
+   .container {
+    display: flex;
+            flex-direction: row; 
+            flex-wrap: wrap; 
+            justify-content: space-around;
+            align-items: top;
+            font-size: 40px;
+        }
+    
+
+    .flex-item img {
+        width: auto; 
+        height: auto;
+        max-width: 250px; 
+        background-color: black;
+    }
+    #text-0 {
+        font-size: 30px;
+        text-wrap: wrap;
+    }
+   
+    #text-1 {
+        font-size: 30px;
+        text-wrap: wrap;
+    }
+    
+    #text-2 {
+        visibility: hidden;
+        font-size: 30px;
+        padding: 10px;
+        border: 3px solid black;
+
+
+
+    }
+    a {
+        color:antiquewhite;
+      }

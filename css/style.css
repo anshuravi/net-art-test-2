@@ -1,0 +1,146 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    background-image: url("../victorian.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+ }
+ 
+ 
+ body {
+     font-size: 2.5rem;
+    line-height: 1.6;
+    font-family: "Smythe", system-ui;
+    overflow-y: hidden;
+    
+ }
+
+ 
+
+ .image-div{
+    display: inline-block;
+    max-width: 100%;
+ }
+ .hidden {
+    visibility: hidden;
+ }
+ .text {
+    position: fixed;
+   
+    transform: translate(-50%, -50%);
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid black;
+    display: none;
+    max-width: 90%;
+}
+
+ #image-0 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+
+ }
+
+ #image-1 {
+    position: fixed;
+    top: 100px;
+    right: 400px;
+    max-width: 100%;
+ }
+
+ #text-1 {
+    top: 20%; 
+    left: 50%; 
+
+ }
+
+ #image-2 {
+    position: fixed;
+    top: 100px;
+    left: 500px;
+ }
+ #text-2 {
+    top: 20%; 
+    left: 47%; 
+
+ }
+
+ 
+
+  #image-3 {
+    position: fixed;
+    top: 100px;
+    left: 200px;
+ }
+
+ #text-3 {
+    top: 20%; 
+    left: 37%; 
+
+
+ }
+
+ #image-4 {
+    position: fixed;
+    top: 100px;
+    right: 200px;
+ }
+
+ 
+ #text-4 {
+    top: 25%; 
+    left: 40%; 
+
+ }
+ #image-5 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+ 
+ }
+ #text-5 {
+    top: 20%; 
+    left: 40%; 
+
+ }
+ #image-6 {
+    position: fixed;
+    top: 200px;
+    right: 300px;
+ }
+ #text-6 {
+    position: fixed;
+    top: 250px;
+    right: 300px;
+ }
+
+
+ 
